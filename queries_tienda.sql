@@ -42,6 +42,9 @@ SELECT nombre, ROUND(precio) as 'precio' FROM producto;
 SELECT nombre, TRUNCATE(precio, 0) as 'precio truncado' FROM producto;
 
 -- 11. Mostra una llista amb els codis dels fabricants que apareixen a la taula producto, incloent possibles repeticions.
+
+SELECT codigo_fabricante FROM producto;
+
 -- 12. Llista el codi dels fabricants que tenen productes en la taula producto, eliminant els codis que apareixen repetits.
 -- 13. Llista els noms dels fabricants ordenats de manera ascendent
 -- 14. Llista els noms dels fabricants ordenats de manera descendent
