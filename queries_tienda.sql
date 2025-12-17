@@ -54,6 +54,9 @@ SELECT DISTINCT codigo_fabricante FROM producto;
 SELECT nombre FROM fabricante ORDER BY nombre ASC;
 
 -- 14. Llista els noms dels fabricants ordenats de manera descendent
+
+SELECT nombre FROM fabricante ORDER BY nombre DESC;
+
 -- 15. Llista els noms i els preus dels productes ordenats, en primer lloc, pel nom de manera ascendent i, en segon lloc, pel preu de manera descendent.
 -- 16. Retorna una llista amb les 5 primeres files de la taula fabricante.
 -- 17. Retorna una llista amb 2 files a partir de la quarta fila de la taula fabricante. La quarta fila també s'ha d'incloure en la resposta.
