@@ -34,6 +34,9 @@ SELECT LOWER(nombre), precio FROM producto;
 SELECT nombre, UPPER(left(nombre,2)) as 'iniciales' FROM fabricante;
 
 -- 9. Llista els noms i els preus dels productes, arrodonint el valor del preu (precio)
+
+SELECT nombre, ROUND(precio) as 'precio' FROM producto;
+
 -- 10. Llista els noms i els preus de tots els productes (precio truncado) de la taula producto, truncant el valor del preu per a mostrar-lo sense cap xifra decimal.
 -- 11. Mostra una llista amb els codis dels fabricants que apareixen a la taula producto, incloent possibles repeticions.
 -- 12. Llista el codi dels fabricants que tenen productes en la taula producto, eliminant els codis que apareixen repetits.
